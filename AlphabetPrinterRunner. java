@@ -1,0 +1,44 @@
+public class AlphabetData {
+    public static char[] alphabets = {'d', 'a', 'c', 'b', 'e'};
+}
+
+public class AlphabetPrinter {
+    static {
+        System.out.println("Alphabets in ascending order:");
+
+        // Direct manual comparison and printing
+        if ('a' == AlphabetData.alphabets[0] || 'a' == AlphabetData.alphabets[1] || 
+            'a' == AlphabetData.alphabets[2] || 'a' == AlphabetData.alphabets[3] || 
+            'a' == AlphabetData.alphabets[4]) {
+            System.out.println('a');
+        }
+
+        if ('b' == AlphabetData.alphabets[0] || 'b' == AlphabetData.alphabets[1] || 
+            'b' == AlphabetData.alphabets[2] || 'b' == AlphabetData.alphabets[3] || 
+            'b' == AlphabetData.alphabets[4]) {
+            System.out.println('b');
+        }
+
+        if ('c' == AlphabetData.alphabets[0] || 'c' == AlphabetData.alphabets[1] || 
+            'c' == AlphabetData.alphabets[2] || 'c' == AlphabetData.alphabets[3] || 
+            'c' == AlphabetData.alphabets[4]) {
+            System.out.println('c');
+        }
+
+        if ('d' == AlphabetData.alphabets[0] || 'd' == AlphabetData.alphabets[1] || 
+            'd' == AlphabetData.alphabets[2] || 'd' == AlphabetData.alphabets[3] || 
+            'd' == AlphabetData.alphabets[4]) {
+            System.out.println('d');
+        }
+
+        if ('e' == AlphabetData.alphabets[0] || 'e' == AlphabetData.alphabets[1] || 
+            'e' == AlphabetData.alphabets[2] || 'e' == AlphabetData.alphabets[3] || 
+            'e' == AlphabetData.alphabets[4]) {
+            System.out.println('e');
+        }
+    }
+
+    public static void main(String[] args) {
+        // Main method left empty
+    }
+}
