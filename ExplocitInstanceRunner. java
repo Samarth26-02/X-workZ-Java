@@ -1,0 +1,63 @@
+public class ClassA {
+    public ClassA() {
+        System.out.println("Instance of ClassA created.");
+    }
+}
+public class ClassB {
+    public ClassB() {
+        System.out.println("Instance of ClassB created.");
+    }
+}
+public class ClassC {
+    public ClassC() {
+        System.out.println("Instance of ClassC created.");
+    }
+}
+public class ClassD {
+    public ClassD() {
+        System.out.println("Instance of ClassD created.");
+    }
+}
+public class ClassE {
+    public ClassE() {
+        System.out.println("Instance of ClassE created.");
+    }
+}
+public class MainClass {
+    public static void main(String[] args) {
+        // Creating 5 instances for ClassA
+        ClassA a1 = new ClassA();
+        ClassA a2 = new ClassA();
+        ClassA a3 = new ClassA();
+        ClassA a4 = new ClassA();
+        ClassA a5 = new ClassA();
+
+        // Creating 5 instances for ClassB
+        ClassB b1 = new ClassB();
+        ClassB b2 = new ClassB();
+        ClassB b3 = new ClassB();
+        ClassB b4 = new ClassB();
+        ClassB b5 = new ClassB();
+
+        // Creating 5 instances for ClassC
+        ClassC c1 = new ClassC();
+        ClassC c2 = new ClassC();
+        ClassC c3 = new ClassC();
+        ClassC c4 = new ClassC();
+        ClassC c5 = new ClassC();
+
+        // Creating 5 instances for ClassD
+        ClassD d1 = new ClassD();
+        ClassD d2 = new ClassD();
+        ClassD d3 = new ClassD();
+        ClassD d4 = new ClassD();
+        ClassD d5 = new ClassD();
+
+        // Creating 5 instances for ClassE
+        ClassE e1 = new ClassE();
+        ClassE e2 = new ClassE();
+        ClassE e3 = new ClassE();
+        ClassE e4 = new ClassE();
+        ClassE e5 = new ClassE();
+    }
+}
