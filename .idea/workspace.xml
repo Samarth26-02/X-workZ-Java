@@ -6,32 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="6d815a7b-e0e3-4fab-a787-6742b9939f1f" name="Changes" comment="Initial commit of governmenthierarchy project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bakery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments2/Bakery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BakeryRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments2/BakeryRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baloon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments2/Baloon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaloonRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments2/BaloonRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Beer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments2/Beer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bitcoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments2/Bitcoin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bracelet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments2/Bracelet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments2/Brand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brush.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments2/Brush.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bucket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments2/Bucket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BucketRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments2/BucketRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments2/Bullet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BulletRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments2/BulletRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Camera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments2/Camera.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CameraRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments2/CameraRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments2/Chats.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatsRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments2/ChatsRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments2/Color.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ColorRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments2/ColorRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Currency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments2/Currency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gold.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments2/Gold.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lipstick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments2/Lipstick.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Perfume.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments2/Perfume.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pineapple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments2/Pineapple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wallet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments2/Wallet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments2/Wire.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chocolate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments3/Chocolate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChocolateRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments3/ChocolateRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CompanyOwner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments3/CompanyOwner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CompanyOwnerRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments3/CompanyOwnerRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CompanyWorks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments3/CompanyWorks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments3/Courier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cricket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments3/Cricket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments3/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicketRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments3/TicketRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicketType1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments3/TicketType1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +71,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Samarth\IdeaProjects\XworkZ_Java\src\Assesments3" />
       <recent name="C:\Users\Samarth\IdeaProjects\XworkZ_Java\src\Assesments2" />
       <recent name="C:\Users\Samarth\IdeaProjects\XworkZ_Java\src\Assesments" />
     </key>
