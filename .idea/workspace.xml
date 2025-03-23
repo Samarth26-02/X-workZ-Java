@@ -4,36 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d815a7b-e0e3-4fab-a787-6742b9939f1f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XworkZ_Java.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java20_03" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/assesments/java/City.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/assesments/java/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/assesments/java/Country.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/assesments/java/Detail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/assesments/java/District.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/assesments/java/Education.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/assesments/java/Experience.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/assesments/java/ExperienceDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/assesments/java/GovernmentHierarchy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/assesments/java/House.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/assesments/java/HouseKeep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/assesments/java/Minister.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/assesments/java/Personal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/assesments/java/PersonalAssistant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/assesments/java/Portfolio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/assesments/java/PrimeMinister.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/assesments/java/Room.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/assesments/java/Security.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/assesments/java/Skill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/assesments/java/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/assesments/java/Transport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/assesments/java/Ward.java" afterDir="false" />
+    <list default="true" id="6d815a7b-e0e3-4fab-a787-6742b9939f1f" name="Changes" comment="Initial commit of governmenthierarchy project">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Samarth26-02"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Samarth26-02/X-workZ-Java.git",
+    "accountId": "009cd683-96c8-46f8-b82e-5b71a8e2ecce"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -84,6 +68,15 @@
       <option name="presentableId" value="Default" />
       <updated>1742625685096</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit of governmenthierarchy project">
+      <option name="closed" value="true" />
+      <created>1742712536938</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1742712536938</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -99,5 +92,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Initial commit of governmenthierarchy project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit of governmenthierarchy project" />
   </component>
 </project>
