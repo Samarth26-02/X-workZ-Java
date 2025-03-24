@@ -9,9 +9,9 @@ class Bracelet{
 		design();
 	}
 	public static void design(){
-		Wire.connection();
+		//Wire.connection();
 	}
 	public static void price(){
-		Wire.cable();
+		//Wire.cable();
 	}
 }

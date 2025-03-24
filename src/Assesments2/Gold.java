@@ -2,8 +2,8 @@ package Assesments2;
 class Gold{
 	public static void purityCheck(){
 		System.out.println("Check the purity of Gold");
-		Pineapple.cut();
-		Pineapple.peel();
+		//Pineapple.cut();
+		//Pineapple.peel();
 	}
 	public static void valuation(){
 		System.out.println("Gold valuation");
