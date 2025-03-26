@@ -2,14 +2,14 @@ package Assesment5;
 
 public class Car {
     public String brand="FORD Mustang 1969";
-    long price=9000000;
+    public long price=9000000;
     private String engineType="V8";
     public int mileage=13;
 
     public void showBrand(){
         System.out.println("Car Brand:"+brand);
     }
-    void showPrice(){
+    public void showPrice(){
         System.out.println("car price:"+price);
     }
     private void showEngineType(){

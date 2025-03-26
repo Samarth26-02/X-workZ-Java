@@ -1,11 +1,11 @@
-package Assesment6;
+package Assesments6;
 
-import Assesment5.Dealer;
+import Assesments5.Dealer;
 
 public class CarRunner {
     public static void main(String[] args) {
         Dealer dealer=new Dealer();
-        Buyer buyer=new Buyer();
+        Assesment6.Buyer buyer=new Assesment6.Buyer();
         dealer.carDetails();
         buyer.accessCarDetail();
     }
