@@ -5,6 +5,7 @@ public class Battery {
     private String type;
 
     public Battery(){
+        //printing no-argument constructor
         System.out.println("no-arg constructor");
     }
     public void setVoltage(double voltage){
