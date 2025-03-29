@@ -1,6 +1,7 @@
 package Assesments9;
 
 public class Screw {
+    //Declaring two private variables in screw
     private String material;
     private int size;
 
