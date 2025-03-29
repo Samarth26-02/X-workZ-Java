@@ -1,5 +1,5 @@
 package Assesment5;
-
+//Invoking Bankaccount constructor in Customer
 public class Customer {
     BankAccount bankaccount=new BankAccount();
 
