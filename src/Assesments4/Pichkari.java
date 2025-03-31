@@ -9,10 +9,12 @@ class Pichkari{
 	double weight;
 	
 	Pichkari(){
+		//super chaining
 		super();
 		System.out.println("no-arg constructor");
 	}
 	Pichkari(String brand){
+		//this chaining
 		this();
 		this.brand=brand;
 		System.out.println("String in pichkari");
