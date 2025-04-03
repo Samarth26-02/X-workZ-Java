@@ -1,6 +1,4 @@
-package com.xworkz.inheritance.internal;
-
-import Assesments12.Vehicle;
+package Assesments12;
 
 public class Airplane extends Vehicle {
     public Airplane() {
