@@ -9,11 +9,18 @@ public class StaffRunner {
         staff.checkOut();
         staff.repeat();
         System.out.println("-------------");
-        Staff staff1=new Factory();
+        Staff staff1=new StaffDetails();
         staff1.checkIn();
         staff1.duties();
         staff1.getPaid();
         staff1.checkOut();
         staff1.repeat();
+        System.out.println("-------------");
+        StaffDetails staffDetails=new StaffDetails();
+        staffDetails.checkIn();
+        staffDetails.checkOut();
+        staffDetails.duties();
+        staffDetails.getPaid();
+        staffDetails.repeat();
     }
 }

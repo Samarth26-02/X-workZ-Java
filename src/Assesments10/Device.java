@@ -1,6 +1,6 @@
 package Assesments10;
 
-public class Devices {
+public class Device {
     public void powerOn(){
         System.out.println("Power On");
     }

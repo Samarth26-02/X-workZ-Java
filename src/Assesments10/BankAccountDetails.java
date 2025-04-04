@@ -1,11 +1,12 @@
 package Assesments10;
 
-public class BankAccountDetails {
+public class BankAccountDetails extends BankAccount{
+    @Override
     public void deposit(){
-        System.out.println("Deposit the money");
+        System.out.println("Deposit the 20000 money");
     }
     public void withdraw(){
-        System.out.println("Withdraw the money");
+        System.out.println("Withdraw the 3000 money");
     }
     public void checkBalance(){
         System.out.println("Check account balance");

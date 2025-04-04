@@ -15,5 +15,12 @@ public class SpaceMissionRunner {
         spaceMission1.collectData();
         spaceMission1.transmitData();
         spaceMission1.returnToEarth();
+        System.out.println("-------------");
+        SpaceMissionDetails spaceMissionDetails=new SpaceMissionDetails();
+        spaceMissionDetails.collectData();
+        spaceMissionDetails.launch();
+        spaceMissionDetails.navigate();
+        spaceMissionDetails.returnToEarth();
+        spaceMissionDetails.transmitData();
     }
 }

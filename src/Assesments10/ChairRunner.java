@@ -15,5 +15,12 @@ public class ChairRunner {
         chair1.adjustableHeight();
         chair1.hasArmrests();
         chair1.color();
+        System.out.println("--------------");
+        ChairDetails chairDetails=new ChairDetails();
+        chairDetails.adjustableHeight();
+        chairDetails.color();
+        chairDetails.type();
+        chairDetails.material();
+        chairDetails.hasArmrests();
     }
 }

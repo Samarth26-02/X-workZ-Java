@@ -15,5 +15,12 @@ public class SareeRunner {
         saree1.material();
         saree1.border();
         saree1.color();
+        System.out.println("-------------");
+        SareeDetails sareeDetails=new SareeDetails();
+        sareeDetails.border();
+        sareeDetails.color();
+        sareeDetails.length();
+        sareeDetails.pattern();
+        sareeDetails.material();
     }
 }

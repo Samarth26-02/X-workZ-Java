@@ -5,8 +5,97 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d815a7b-e0e3-4fab-a787-6742b9939f1f" name="Changes" comment="Initial commit of governmenthierarchy project">
+      <change afterPath="$PROJECT_DIR$/src/Assesments10/AnimalDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assesments10/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assesments10/ElectronicDevice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assesments10/ElectronicDeviceDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assesments10/ElectronicDeviceRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assesments10/Recipe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assesments11/internal/ASTest3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments11/internal/ASTest3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/AnimalRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/AnimalRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/AutoDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/AutoDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/AutoRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/AutoRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/BackpackDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/BackpackDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/BackpackRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/BackpackRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/BankAccountDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/BankAccountDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/BankAccountDetailsRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/BankAccountDetailsRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/BicycleDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/BicycleDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/BicycleRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/BicycleRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/BookRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/BookRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/VehicleDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/CardPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/PaymentDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/ChairDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/ChairDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/ChairRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/ChairRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/Chef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/RestaurantDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/CoffeeMakerDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/CoffeeMakerDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/CoffeeMakerRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/CoffeeMakerRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/CoffeeMugDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/CoffeeMugDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/CoffeeMugRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/CoffeeMugRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/CustomerDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/Developer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/EmployeeDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/DeviceDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/DeviceDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/DeviceRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/DeviceRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/Devices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/Device.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/DoorDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/DoorDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/DoorRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/DoorRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/EmployeeRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/EmployeeRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/StaffDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/FoodItemDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/FoodItemDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/FoodItemRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/FoodItemRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/GuitarDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/GuitarDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/GuitarRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/GuitarRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/IdliDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/IdliDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/IdliRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/IdliRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/LaptopDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/LaptopDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/LaptopRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/LaptopRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/BookDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/Mammal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/MangoDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/MangoDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/MangoRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/MangoRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/MetroCardDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/MetroCardDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/MetroCardRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/MetroCardRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/PaymentRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/PaymentRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/PenDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/PenDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/PenRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/PenRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/PersonRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/PersonRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/PillowDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/PillowDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/PillowRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/PillowRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/PlantDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/PlantDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/PlantRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/PlantRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/Professor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/PersonDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/Reciever.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/SmartDeviceDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/RefrigeratorDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/RefrigeratorDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/RefrigeratorRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/RefrigeratorRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/RemoteDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/RemoteDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/RemoteRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/RemoteRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/RestaurantRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/RestaurantRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/SareeDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/SareeDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/SareeRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/SareeRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/Seller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/UserDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/ShapeDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/ShapeDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/ShapeRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/ShapeRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/SmartDeviceRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/SmartDeviceRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/SmartPhoneRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/SmartPhoneRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/SmartphoneDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/SmartphoneDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/SpaceMissionDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/SpaceMissionDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/SpaceMissionRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/SpaceMissionRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/StaffRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/StaffRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/SunglassesDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/SunglassesDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/SunglassesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/SunglassesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/TableDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/TableDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/TableRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/TableRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/TelevisionDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/TelevisionDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/TelevisionRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/TelevisionRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/TrafficLightDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/TrafficLightDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/TrafficLightRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/TrafficLightRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/UserRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/UserRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/VehicleRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/VehicleRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/WatchDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/WatchDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/WatchRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/WatchRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/WorkoutDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/WorkoutDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments10/WorkoutRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments10/WorkoutRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments5/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments5/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assesments6/BankRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assesments6/BankRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,8 +144,11 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.AnimalRunner.executor": "Run",
     "Application.AnimeRunner.executor": "Run",
+    "Application.Assesments10.AnimalRunner.executor": "Run",
     "Application.Assesments12.VehicleRunner.executor": "Run",
     "Application.Assesments9.Runner.executor": "Run",
+    "Application.AutoRunner.executor": "Run",
+    "Application.BackpackRunner.executor": "Run",
     "Application.BankAccountDetailsRunner.executor": "Run",
     "Application.BankRunner.executor": "Run",
     "Application.BicycleRunner.executor": "Run",
@@ -110,13 +202,13 @@
       <recent name="C:\Users\Samarth\IdeaProjects\XworkZ_Java\src\Assesments" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AnimeRunner">
-    <configuration name="AnimalRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assesments12.AnimalRunner" />
+  <component name="RunManager" selected="Application.RestaurantRunner">
+    <configuration name="BicycleRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assesments10.BicycleRunner" />
       <module name="XworkZ_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Assesments12.*" />
+          <option name="PATTERN" value="Assesments10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +216,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnimeRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assesments12.AnimeRunner" />
+    <configuration name="BookRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assesments10.BookRunner" />
       <module name="XworkZ_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Assesments12.*" />
+          <option name="PATTERN" value="Assesments10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +229,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClothingRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assesments12.ClothingRunner" />
+    <configuration name="ChairRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assesments10.ChairRunner" />
       <module name="XworkZ_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Assesments12.*" />
+          <option name="PATTERN" value="Assesments10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,12 +242,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeviceRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assesments12.DeviceRunner" />
+    <configuration name="PaymentRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assesments10.PaymentRunner" />
       <module name="XworkZ_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Assesments12.*" />
+          <option name="PATTERN" value="Assesments10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,12 +255,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GunRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assesments12.GunRunner" />
+    <configuration name="RestaurantRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assesments10.RestaurantRunner" />
       <module name="XworkZ_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Assesments12.*" />
+          <option name="PATTERN" value="Assesments10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,11 +270,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AnimeRunner" />
-        <item itemvalue="Application.GunRunner" />
-        <item itemvalue="Application.AnimalRunner" />
-        <item itemvalue="Application.ClothingRunner" />
-        <item itemvalue="Application.DeviceRunner" />
+        <item itemvalue="Application.RestaurantRunner" />
+        <item itemvalue="Application.ChairRunner" />
+        <item itemvalue="Application.PaymentRunner" />
+        <item itemvalue="Application.BookRunner" />
+        <item itemvalue="Application.BicycleRunner" />
       </list>
     </recent_temporary>
   </component>

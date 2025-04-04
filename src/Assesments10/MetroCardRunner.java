@@ -15,5 +15,12 @@ public class MetroCardRunner {
         metroCard1.issuingAuthority();
         metroCard1.functionality();
         metroCard1.color();
+        System.out.println("-------------");
+        MetroCardDetails metroCardDetails=new MetroCardDetails();
+        metroCardDetails.color();
+        metroCardDetails.functionality();
+        metroCardDetails.material();
+        metroCardDetails.validity();
+        metroCardDetails.issuingAuthority();
     }
 }

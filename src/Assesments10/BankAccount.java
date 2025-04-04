@@ -1,6 +1,6 @@
 package Assesments10;
 
-public class CustomerDetails extends BankAccountDetails{
+public class BankAccount {
     public void deposit(){
         System.out.println("Deposit the money");
     }

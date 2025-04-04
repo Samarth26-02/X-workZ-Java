@@ -15,5 +15,12 @@ public class DoorRunner {
         door1.material();
         door1.color();
         door1.dimension();
+        System.out.println("-------------");
+        DoorDetails doorDetails=new DoorDetails();
+        doorDetails.color();
+        doorDetails.type();
+        doorDetails.dimension();
+        doorDetails.hasHandle();
+        doorDetails.material();
     }
 }

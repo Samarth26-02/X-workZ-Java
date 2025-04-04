@@ -9,11 +9,17 @@ public class RestaurantRunner {
         restaurant.clockOut();
         restaurant.repeat();
         System.out.println("-------------");
-        Restaurant restaurant1=new Chef();
+        Restaurant restaurant1=new RestaurantDetails();
         restaurant1.clockIn();
         restaurant1.duties();
         restaurant1.salary();
         restaurant1.clockOut();
         restaurant1.repeat();
+        RestaurantDetails restaurantDetails=new RestaurantDetails();
+        restaurantDetails.clockIn();
+        restaurantDetails.clockOut();
+        restaurantDetails.duties();
+        restaurantDetails.salary();
+        restaurantDetails.repeat();
     }
 }

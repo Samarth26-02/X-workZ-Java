@@ -15,5 +15,12 @@ public class SunglassesRunner {
         sunglasses1.style();
         sunglasses1.frame();
         sunglasses1.brand();
+        System.out.println("-------------");
+        SunglassesDetails sunglassesDetails=new SunglassesDetails();
+        sunglassesDetails.brand();
+        sunglassesDetails.lens();
+        sunglassesDetails.frame();
+        sunglassesDetails.style();
+        sunglassesDetails.uvprotection();
     }
 }

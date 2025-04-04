@@ -15,5 +15,12 @@ public class FoodItemRunner {
         foodItem1.getCalories();
         foodItem1.addToBill();
         foodItem1.applyDiscount();
+        System.out.println("-------------");
+        FoodItemDetails foodItemDetails=new FoodItemDetails();
+        foodItemDetails.addToBill();
+        foodItemDetails.serve();
+        foodItemDetails.prepare();
+        foodItemDetails.getCalories();
+        foodItemDetails.applyDiscount();
     }
 }

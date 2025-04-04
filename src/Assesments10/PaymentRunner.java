@@ -9,11 +9,18 @@ public class PaymentRunner {
         payment.recieveAmount();
         payment.closeApp();
         System.out.println("--------------");
-        Payment payment1=new CardPayment();
+        Payment payment1=new PaymentDetails();
         payment1.transaction();
         payment1.checkBalance();
         payment1.sendAmount();
         payment1.recieveAmount();
         payment1.closeApp();
+        System.out.println("--------------");
+        PaymentDetails paymentDetails=new PaymentDetails();
+        paymentDetails.checkBalance();
+        paymentDetails.recieveAmount();
+        paymentDetails.sendAmount();
+        paymentDetails.transaction();
+        paymentDetails.closeApp();
     }
 }

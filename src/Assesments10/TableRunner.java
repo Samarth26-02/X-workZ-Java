@@ -15,5 +15,12 @@ public class TableRunner {
         table1.length();
         table1.legsNo();
         table1.use();
+        System.out.println("-------------");
+        TableDetails tableDetails=new TableDetails();
+        tableDetails.legsNo();
+        tableDetails.length();
+        tableDetails.use();
+        tableDetails.shape();
+        tableDetails.material();
     }
 }

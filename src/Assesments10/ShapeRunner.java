@@ -15,5 +15,12 @@ public class ShapeRunner {
         shape1.rectangle();
         shape1.triangle();
         shape1.cylinder();
+        System.out.println("-------------");
+        ShapeDetails shapeDetails=new ShapeDetails();
+        shapeDetails.circle();
+        shapeDetails.cylinder();
+        shapeDetails.rectangle();
+        shapeDetails.square();
+        shapeDetails.triangle();
     }
 }

@@ -15,5 +15,12 @@ public class MangoRunner {
         mango1.season();
         mango1.origin();
         mango1.color();
+        System.out.println("-------------");
+        MangoDetails mangoDetails=new MangoDetails();
+        mangoDetails.color();
+        mangoDetails.origin();
+        mangoDetails.season();
+        mangoDetails.taste();
+        mangoDetails.variety();
     }
 }

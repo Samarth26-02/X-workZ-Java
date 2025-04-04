@@ -15,5 +15,11 @@ public class BicycleRunner {
         bicycle1.brakeType();
         bicycle1.gearNo();
         bicycle1.color();
+        BicycleDetails bicycleDetails=new BicycleDetails();
+        bicycleDetails.brakeType();
+        bicycleDetails.color();
+        bicycleDetails.gearNo();
+        bicycleDetails.type();
+        bicycleDetails.material();
     }
 }

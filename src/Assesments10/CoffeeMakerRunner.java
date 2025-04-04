@@ -15,5 +15,12 @@ public class CoffeeMakerRunner {
         coffeeMaker1.waterReservoirCapacity();
         coffeeMaker1.strength();
         coffeeMaker1.color();
+        System.out.println("-------------");
+        CoffeeMakerDetails coffeeMakerDetails=new CoffeeMakerDetails();
+        coffeeMakerDetails.brand();
+        coffeeMakerDetails.color();
+        coffeeMakerDetails.model();
+        coffeeMakerDetails.strength();
+        coffeeMakerDetails.waterReservoirCapacity();
     }
 }

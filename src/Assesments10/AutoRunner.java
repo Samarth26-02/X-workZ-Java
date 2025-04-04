@@ -15,5 +15,12 @@ public class AutoRunner {
         auto1.capacity();
         auto1.fuel();
         auto1.color();
+        System.out.println("-------------");
+        AutoDetails autoDetails=new AutoDetails();
+        autoDetails.color();
+        autoDetails.fuel();
+        autoDetails.capacity();
+        autoDetails.meter();
+        autoDetails.wheels();
     }
 }

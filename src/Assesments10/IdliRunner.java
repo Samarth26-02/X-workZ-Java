@@ -15,5 +15,12 @@ public class IdliRunner {
         idli1.servedWith();
         idli1.preparation();
         idli1.ingridients();
+        System.out.println("-------------");
+        IdliDetails idliDetails=new IdliDetails();
+        idliDetails.ingridients();
+        idliDetails.taste();
+        idliDetails.texture();
+        idliDetails.preparation();
+        idliDetails.servedWith();
     }
 }

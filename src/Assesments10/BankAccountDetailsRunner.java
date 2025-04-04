@@ -9,11 +9,18 @@ public class BankAccountDetailsRunner {
         bankAccountDetails.deposit();
         bankAccountDetails.withdraw();
         System.out.println("-----------------");
-        BankAccountDetails bankAccountDetails1=new CustomerDetails();
-        bankAccountDetails1.accountDetails();
-        bankAccountDetails1.checkBalance();
-        bankAccountDetails1.area();
-        bankAccountDetails1.deposit();
-        bankAccountDetails1.withdraw();
+        BankAccount bankAccount=new BankAccount();
+        bankAccount.accountDetails();
+        bankAccount.area();
+        bankAccount.checkBalance();
+        bankAccount.deposit();
+        bankAccount.withdraw();
+        System.out.println("-----------------");
+        BankAccount bankAccount1=new BankAccountDetails();
+        bankAccount1.accountDetails();
+        bankAccount1.area();
+        bankAccount1.checkBalance();
+        bankAccount1.deposit();
+        bankAccount1.withdraw();
     }
 }

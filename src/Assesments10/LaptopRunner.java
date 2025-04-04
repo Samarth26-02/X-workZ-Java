@@ -15,5 +15,12 @@ public class LaptopRunner {
         laptop1.processor();
         laptop1.ram();
         laptop1.storage();
+        System.out.println("-------------");
+        LaptopDetails laptopDetails=new LaptopDetails();
+        laptopDetails.brand();
+        laptopDetails.model();
+        laptopDetails.ram();
+        laptopDetails.storage();
+        laptopDetails.processor();
     }
 }

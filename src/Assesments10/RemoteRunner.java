@@ -15,5 +15,12 @@ public class RemoteRunner {
         remote1.connectivity();
         remote1.buttons();
         remote1.brand();
+        System.out.println("-------------");
+        RemoteDetails remoteDetails=new RemoteDetails();
+        remoteDetails.brand();
+        remoteDetails.buttons();
+        remoteDetails.power();
+        remoteDetails.device();
+        remoteDetails.connectivity();
     }
 }

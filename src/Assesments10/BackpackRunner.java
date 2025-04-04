@@ -15,5 +15,12 @@ public class BackpackRunner {
         backpack1.compartments();
         backpack1.color();
         backpack1.capacity();
+        System.out.println("---------------");
+        BackpackDetails backpackDetails=new BackpackDetails();
+        backpackDetails.capacity();
+        backpackDetails.color();
+        backpackDetails.compartments();
+        backpackDetails.material();
+        backpackDetails.waterResistance();
     }
 }

@@ -15,5 +15,12 @@ public class GuitarRunner {
         guitar1.color();
         guitar1.brand();
         guitar1.material();
+        System.out.println("-------------");
+        GuitarDetails guitarDetails=new GuitarDetails();
+        guitarDetails.brand();
+        guitarDetails.color();
+        guitarDetails.type();
+        guitarDetails.strings();
+        guitarDetails.material();
     }
 }

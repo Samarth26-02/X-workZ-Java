@@ -15,5 +15,12 @@ public class WorkoutRunner {
         workout1.showDuration();
         workout1.saveProggress();
         workout1.endSession();
+        System.out.println("-------------");
+        WorkoutDetails workoutDetails=new WorkoutDetails();
+        workoutDetails.endSession();
+        workoutDetails.saveProggress();
+        workoutDetails.showDuration();
+        workoutDetails.startSession();
+        workoutDetails.trackCalories();
     }
 }

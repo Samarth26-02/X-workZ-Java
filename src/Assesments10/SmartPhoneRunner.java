@@ -15,5 +15,12 @@ public class SmartPhoneRunner {
         smartphone1.size();
         smartphone1.storage();
         smartphone1.os();
+        System.out.println("-------------");
+        SmartphoneDetails smartphoneDetails=new SmartphoneDetails();
+        smartphoneDetails.brand();
+        smartphoneDetails.os();
+        smartphoneDetails.model();
+        smartphoneDetails.size();
+        smartphoneDetails.storage();
     }
 }

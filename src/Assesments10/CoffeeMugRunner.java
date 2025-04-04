@@ -15,5 +15,12 @@ public class CoffeeMugRunner {
         coffeeMug1.dishwasherSafe();
         coffeeMug1.color();
         coffeeMug1.capacity();
+        System.out.println("-------------");
+        CoffeeMugDetails coffeeMugDetails=new CoffeeMugDetails();
+        coffeeMugDetails.capacity();
+        coffeeMugDetails.color();
+        coffeeMugDetails.hasHandle();
+        coffeeMugDetails.material();
+        coffeeMugDetails.dishwasherSafe();
     }
 }

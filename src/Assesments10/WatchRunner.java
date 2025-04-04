@@ -16,5 +16,12 @@ public class WatchRunner {
         watch1.waterResistance();
         watch1.color();
         watch1.brand();
+        System.out.println("-------------");
+        WatchDetails watchDetails=new WatchDetails();
+        watchDetails.brand();
+        watchDetails.color();
+        watchDetails.caseMaterial();
+        watchDetails.movement();
+        watchDetails.waterResistance();
     }
 }

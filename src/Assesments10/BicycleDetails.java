@@ -1,19 +1,24 @@
 package Assesments10;
 
 public class BicycleDetails extends Bicycle{
+    @Override
     public void type(){
-        System.out.println("Mountain bike");
+        System.out.println("Race bike");
     }
+    @Override
     public void material(){
-        System.out.println("Alluminium");
+        System.out.println("Iron");
     }
+    @Override
     public void gearNo(){
-        System.out.println("21");
+        System.out.println("25");
     }
+    @Override
     public void brakeType(){
-        System.out.println("Disc brake");
+        System.out.println("Normal brake");
     }
+    @Override
     public void color(){
-        System.out.println("Black and Blue");
+        System.out.println("Blue");
     }
 }

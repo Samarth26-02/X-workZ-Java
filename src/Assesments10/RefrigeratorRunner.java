@@ -15,5 +15,12 @@ public class RefrigeratorRunner {
         refrigerator1.energyStar();
         refrigerator1.color();
         refrigerator1.capacity();
+        System.out.println("-------------");
+        RefrigeratorDetails refrigeratorDetails=new RefrigeratorDetails();
+        refrigeratorDetails.capacity();
+        refrigeratorDetails.color();
+        refrigeratorDetails.type();
+        refrigeratorDetails.freezer();
+        refrigeratorDetails.energyStar();
     }
 }

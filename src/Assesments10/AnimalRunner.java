@@ -9,11 +9,18 @@ public class AnimalRunner {
         animal.move();
         animal.sleep();
         System.out.println("----------------------");
-        Animal animal1=new Mammal();
+        Animal animal1=new AnimalDetails();
         animal1.sleep();
         animal1.move();
         animal1.fight();
         animal1.sound();
         animal1.eat();
+        System.out.println("----------------------");
+        AnimalDetails animalDetails=new AnimalDetails();
+        animalDetails.eat();
+        animalDetails.sleep();
+        animalDetails.sound();
+        animalDetails.fight();
+        animalDetails.move();
     }
 }

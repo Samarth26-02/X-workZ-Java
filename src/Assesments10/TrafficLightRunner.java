@@ -15,5 +15,12 @@ public class TrafficLightRunner {
         trafficLight1.mounnting();
         trafficLight1.control();
         trafficLight1.lightsNo();
+        System.out.println("-------------");
+        TrafficLightDetails trafficLightDetails=new TrafficLightDetails();
+        trafficLightDetails.control();
+        trafficLightDetails.lightsNo();
+        trafficLightDetails.mounnting();
+        trafficLightDetails.shape();
+        trafficLightDetails.purpose();
     }
 }

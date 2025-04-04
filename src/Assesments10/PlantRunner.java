@@ -15,5 +15,12 @@ public class PlantRunner {
         plant1.requiresSun();
         plant1.fragrance();
         plant1.color();
+        System.out.println("-------------");
+        PlantDetails plantDetails=new PlantDetails();
+        plantDetails.color();
+        plantDetails.height();
+        plantDetails.type();
+        plantDetails.fragrance();
+        plantDetails.requiresSun();
     }
 }

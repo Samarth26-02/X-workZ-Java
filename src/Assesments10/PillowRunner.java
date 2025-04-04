@@ -15,5 +15,12 @@ public class PillowRunner {
         pillow1.hypoallergenic();
         pillow1.firmness();
         pillow1.cover();
+        System.out.println("-------------");
+        PillowDetails pillowDetails=new PillowDetails();
+        pillowDetails.cover();
+        pillowDetails.size();
+        pillowDetails.firmness();
+        pillowDetails.material();
+        pillowDetails.hypoallergenic();
     }
 }

@@ -15,5 +15,12 @@ public class PenRunner {
         pen1.retractable();
         pen1.brand();
         pen1.ink();
+        System.out.println("-------------");
+        PenDetails penDetails=new PenDetails();
+        penDetails.brand();
+        penDetails.ink();
+        penDetails.type();
+        penDetails.material();
+        penDetails.retractable();
     }
 }
