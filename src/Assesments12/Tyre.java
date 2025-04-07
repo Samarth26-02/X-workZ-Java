@@ -1,4 +1,4 @@
-package Assesments13;
+package Assesments12;
 
 public class Tyre extends Rubber{
     @Override
