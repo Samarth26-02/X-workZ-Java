@@ -1,4 +1,3 @@
-// BackupRunner.java
 package Assesments10;
 
 public class BackupRunner {
@@ -27,5 +26,12 @@ public class BackupRunner {
         backupDetails.verifyBackup();
         backupDetails.copyData();
         backupDetails.selectData();
+        backupDetails.encryptionStatus();
+
+        System.out.println("----------------------");
+
+        BackupCast backupCast = new BackupCast();
+        backupCast.castBackup(backup);
+        backupCast.castBackup(backup1);
     }
 }

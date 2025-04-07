@@ -21,4 +21,7 @@ public class GuitarDetails extends Guitar{
     public void brand(){
         System.out.println("Fender");
     }
+    public void play(){
+        System.out.println("Playing the guitar");
+    }
 }

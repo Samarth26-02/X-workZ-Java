@@ -1,4 +1,3 @@
-// BackupDetails.java
 package Assesments10;
 
 public class BackupDetails extends Backup {
@@ -25,5 +24,9 @@ public class BackupDetails extends Backup {
     @Override
     public void finalizeBackup() {
         System.out.println("Finalizing detailed backup");
+    }
+
+    public void encryptionStatus() {
+        System.out.println("Data is encrypted with AES-256");
     }
 }

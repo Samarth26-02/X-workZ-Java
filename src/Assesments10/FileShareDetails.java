@@ -26,4 +26,8 @@ public class FileShareDetails extends FileShare {
     public void checkPermissions() {
         System.out.println("Checking detailed file permissions");
     }
+
+    public void setExpiration() {
+        System.out.println("Setting share expiration date");
+    }
 }

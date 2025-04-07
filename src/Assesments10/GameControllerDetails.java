@@ -26,4 +26,8 @@ public class GameControllerDetails extends GameController {
     public void changeWeapon() {
         System.out.println("Changing to a specific weapon");
     }
+
+    public void specialAbility() {
+        System.out.println("Activating special ability");
+    }
 }

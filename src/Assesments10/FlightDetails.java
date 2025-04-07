@@ -26,4 +26,8 @@ public class FlightDetails extends Flight {
     public void cancel() {
         System.out.println("Canceling detailed flight");
     }
+
+    public void selectSeat() {
+        System.out.println("Selecting preferred seat");
+    }
 }

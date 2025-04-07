@@ -21,4 +21,7 @@ public class FoodItemDetails extends FoodItem{
     public void applyDiscount(){
         System.out.println("Discount applied");
     }
+    public void displayIngredients(){
+        System.out.println("Displaying ingredients");
+    }
 }

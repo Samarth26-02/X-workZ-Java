@@ -25,4 +25,7 @@ public class AudioDetails extends Audio{
     public void adjustVolume() {
         System.out.println("Adjusting detailed audio volume");
     }
+    public void sendAudio(){
+        System.out.println("send audio");
+    }
 }

@@ -1,4 +1,3 @@
-// CompilerDetails.java
 package Assesments10;
 
 public class CompilerDetails extends Compiler {
@@ -25,5 +24,9 @@ public class CompilerDetails extends Compiler {
     @Override
     public void optimize() {
         System.out.println("Optimizing code with details");
+    }
+
+    public void debugInfo() {
+        System.out.println("Generating debug information");
     }
 }

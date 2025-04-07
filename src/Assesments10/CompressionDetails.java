@@ -1,4 +1,3 @@
-// CompressionDetails.java
 package Assesments10;
 
 public class CompressionDetails extends Compression {
@@ -25,5 +24,9 @@ public class CompressionDetails extends Compression {
     @Override
     public void reportSize() {
         System.out.println("Reporting detailed file size");
+    }
+
+    public void showAlgorithmDetails() {
+        System.out.println("Algorithm: Huffman Coding with run-length optimization");
     }
 }

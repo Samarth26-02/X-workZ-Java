@@ -21,4 +21,7 @@ public class LaptopDetails extends Laptop{
     public void storage(){
         System.out.println("512 GB");
     }
+    public void displayOS(){
+        System.out.println("Windows 11");
+    }
 }

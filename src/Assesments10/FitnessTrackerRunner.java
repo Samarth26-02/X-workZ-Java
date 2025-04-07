@@ -27,5 +27,13 @@ public class FitnessTrackerRunner {
         trackerDetails.viewSummary();
         trackerDetails.endWorkout();
         trackerDetails.logActivity();
+        trackerDetails.monitorHeartRate();
+
+        System.out.println("----------------------");
+
+        FitnessTrackerCast trackerCast = new FitnessTrackerCast();
+        trackerCast.castTracker(tracker);
+        System.out.println("----------------------");
+        trackerCast.castTracker(trackerDetails);
     }
 }

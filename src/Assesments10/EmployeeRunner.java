@@ -22,5 +22,11 @@ public class EmployeeRunner {
         employeeDetails.getSalary();
         employeeDetails.work();
         employeeDetails.takeBreak();
+        employeeDetails.submitReports();
+        System.out.println("-------------");
+        EmployeeCast employeeCast = new EmployeeCast();
+        employeeCast.castEmployee(employee);
+        System.out.println("-------------");
+        employeeCast.castEmployee(employeeDetails);
     }
 }

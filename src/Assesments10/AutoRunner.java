@@ -22,5 +22,8 @@ public class AutoRunner {
         autoDetails.capacity();
         autoDetails.meter();
         autoDetails.wheels();
+        System.out.println("----------------------");
+        AutoCast autoCast=new AutoCast();
+        autoCast.castAuto(auto);
     }
 }

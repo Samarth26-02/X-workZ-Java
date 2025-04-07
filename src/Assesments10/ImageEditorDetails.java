@@ -26,4 +26,8 @@ public class ImageEditorDetails extends ImageEditor {
     public void undo() {
         System.out.println("Undoing multiple actions");
     }
+
+    public void adjustBrightness() {
+        System.out.println("Adjusting image brightness");
+    }
 }

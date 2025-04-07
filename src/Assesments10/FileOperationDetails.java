@@ -25,4 +25,8 @@ public class FileOperationDetails extends FileOperation{
     public void delete() {
         System.out.println("Deleting detailed file");
     }
+
+    public void backup() {
+        System.out.println("Creating a backup of the file");
+    }
 }

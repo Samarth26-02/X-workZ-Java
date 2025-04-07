@@ -26,5 +26,13 @@ public class DatabaseRunner {
         databaseDetails.close();
         databaseDetails.update();
         databaseDetails.query();
+        databaseDetails.restore();
+
+        System.out.println("----------------------");
+
+        DatabaseCast cast = new DatabaseCast();
+        cast.castDatabase(database);
+        System.out.println("----------------------");
+        cast.castDatabase(database1);
     }
 }

@@ -11,7 +11,7 @@ public class FileRunner {
 
         System.out.println("-------------");
 
-        File textFile = new File();
+        File textFile = new FileDetails();
         textFile.open();
         textFile.read();
         textFile.write();
@@ -26,5 +26,13 @@ public class FileRunner {
         fileDetails.delete();
         fileDetails.read();
         fileDetails.write();
+        fileDetails.encrypt();
+
+        System.out.println("-------------");
+
+        FileCast fileCast = new FileCast();
+        fileCast.castFile(genericFile);
+        System.out.println("-------------");
+        fileCast.castFile(textFile);
     }
 }

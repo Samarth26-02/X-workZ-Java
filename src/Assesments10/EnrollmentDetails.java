@@ -26,4 +26,8 @@ public class EnrollmentDetails extends Enrollment {
     public void generateReport() {
         System.out.println("Generating detailed enrollment report");
     }
+
+    public void sendConfirmation() {
+        System.out.println("Sending enrollment confirmation");
+    }
 }

@@ -27,5 +27,13 @@ public class EmailRunner {
         emailDetails.reply();
         emailDetails.open();
         emailDetails.receive();
+        emailDetails.flag();
+
+        System.out.println("----------------------");
+
+        EmailCast emailCast = new EmailCast();
+        emailCast.castEmail(email);
+        System.out.println("----------------------");
+        emailCast.castEmail(emailDetails);
     }
 }

@@ -27,5 +27,13 @@ public class HotelBookingRunner {
         bookingDetails.viewDetails();
         bookingDetails.checkAvailability();
         bookingDetails.cancelBooking();
+        bookingDetails.requestExtraBed();
+
+        System.out.println("----------------------");
+
+        HotelBookingCast bookingCast = new HotelBookingCast();
+        bookingCast.castBooking(booking);
+        System.out.println("----------------------");
+        bookingCast.castBooking(bookingDetails);
     }
 }

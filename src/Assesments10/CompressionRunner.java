@@ -1,4 +1,3 @@
-// CompressionRunner.java
 package Assesments10;
 
 public class CompressionRunner {
@@ -27,5 +26,13 @@ public class CompressionRunner {
         compressionDetails.setAlgorithm();
         compressionDetails.checkRatio();
         compressionDetails.decompress();
+        compressionDetails.showAlgorithmDetails();
+
+        System.out.println("----------------------");
+
+        CompressionCast cast = new CompressionCast();
+        cast.castCompression(compression);
+        System.out.println("----------------------");
+        cast.castCompression(compression1);
     }
 }

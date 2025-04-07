@@ -22,5 +22,11 @@ public class GuitarRunner {
         guitarDetails.type();
         guitarDetails.strings();
         guitarDetails.material();
+        guitarDetails.play();
+        System.out.println("-------------");
+        GuitarCast guitarCast = new GuitarCast();
+        guitarCast.castGuitar(guitar);
+        System.out.println("-------------");
+        guitarCast.castGuitar(guitarDetails);
     }
 }

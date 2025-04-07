@@ -1,4 +1,3 @@
-// ContactDetails.java
 package Assesments10;
 
 public class ContactDetails extends Contact {
@@ -25,5 +24,9 @@ public class ContactDetails extends Contact {
     @Override
     public void search() {
         System.out.println("Searching detailed contact information");
+    }
+
+    public void exportToCSV() {
+        System.out.println("Exporting contact details to CSV file");
     }
 }

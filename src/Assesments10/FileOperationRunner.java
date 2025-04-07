@@ -26,5 +26,13 @@ public class FileOperationRunner {
         fileOperationDetails.close();
         fileOperationDetails.write();
         fileOperationDetails.read();
+        fileOperationDetails.backup();
+
+        System.out.println("----------------------");
+
+        FileOperationCast fileOperationCast = new FileOperationCast();
+        fileOperationCast.castFileOperation(fileOperation);
+        System.out.println("----------------------");
+        fileOperationCast.castFileOperation(fileOperationDetails);
     }
 }

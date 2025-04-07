@@ -21,4 +21,5 @@ public class AlarmClock {
     public void changeTime() {
         System.out.println("Changing current time");
     }
+
 }

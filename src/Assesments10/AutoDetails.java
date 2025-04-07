@@ -21,4 +21,7 @@ public class AutoDetails extends Auto{
     public void meter(){
         System.out.println("Digital");
     }
+    public void distance(){
+        System.out.println("auto distance");
+    }
 }

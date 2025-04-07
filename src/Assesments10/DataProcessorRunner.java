@@ -1,4 +1,3 @@
-// DataProcessorRunner.java
 package Assesments10;
 
 public class DataProcessorRunner {
@@ -27,5 +26,13 @@ public class DataProcessorRunner {
         processorDetails.analyzeData();
         processorDetails.transformData();
         processorDetails.validateData();
+        processorDetails.summarizeData();
+
+        System.out.println("----------------------");
+
+        DataProcessorCast cast = new DataProcessorCast();
+        cast.castProcessor(processor);
+        System.out.println("----------------------");
+        cast.castProcessor(processor1);
     }
 }

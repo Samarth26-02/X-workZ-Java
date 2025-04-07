@@ -26,4 +26,8 @@ public class HotelBookingDetails extends HotelBooking {
     public void checkIn() {
         System.out.println("Checking into hotel with details");
     }
+
+    public void requestExtraBed() {
+        System.out.println("Requesting an extra bed");
+    }
 }

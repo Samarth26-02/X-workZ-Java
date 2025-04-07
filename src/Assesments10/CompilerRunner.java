@@ -1,4 +1,3 @@
-// CompilerRunner.java
 package Assesments10;
 
 public class CompilerRunner {
@@ -27,5 +26,13 @@ public class CompilerRunner {
         compilerDetails.generateCode();
         compilerDetails.analyze();
         compilerDetails.parse();
+        compilerDetails.debugInfo();
+
+        System.out.println("----------------------");
+
+        CompilerCast cast = new CompilerCast();
+        cast.castCompiler(compiler);
+        System.out.println("----------------------");
+        cast.castCompiler(compiler1);
     }
 }

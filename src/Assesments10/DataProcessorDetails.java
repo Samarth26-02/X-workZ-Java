@@ -1,4 +1,3 @@
-// DataProcessorDetails.java
 package Assesments10;
 
 public class DataProcessorDetails extends DataProcessor {
@@ -25,5 +24,9 @@ public class DataProcessorDetails extends DataProcessor {
     @Override
     public void writeData() {
         System.out.println("Writing detailed data");
+    }
+
+    public void summarizeData() {
+        System.out.println("Summarizing processed data");
     }
 }

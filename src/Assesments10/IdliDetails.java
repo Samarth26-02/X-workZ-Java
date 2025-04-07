@@ -21,4 +21,7 @@ public class IdliDetails extends Idli{
     public void taste(){
         System.out.println("Mild and slightly tangy");
     }
+    public void addGhee(){
+        System.out.println("Adding a dollop of ghee");
+    }
 }

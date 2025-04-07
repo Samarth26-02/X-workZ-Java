@@ -1,4 +1,3 @@
-// CharacterRunner.java
 package Assesments10;
 
 public class CharacterRunner {
@@ -27,5 +26,12 @@ public class CharacterRunner {
         characterDetails.jump();
         characterDetails.defend();
         characterDetails.attack();
+        characterDetails.transformation();
+
+        System.out.println("----------------------");
+
+        CharacterCast characterCast = new CharacterCast();
+        characterCast.castCharacter(character);
+        characterCast.castCharacter(character1);
     }
 }

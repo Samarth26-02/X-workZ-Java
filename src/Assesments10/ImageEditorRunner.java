@@ -27,5 +27,13 @@ public class ImageEditorRunner {
         editorDetails.saveImage();
         editorDetails.cropImage();
         editorDetails.applyFilter();
+        editorDetails.adjustBrightness();
+
+        System.out.println("----------------------");
+
+        ImageEditorCast editorCast = new ImageEditorCast();
+        editorCast.castEditor(editor);
+        System.out.println("----------------------");
+        editorCast.castEditor(editorDetails);
     }
 }

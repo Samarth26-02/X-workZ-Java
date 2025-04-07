@@ -2,25 +2,36 @@ package Assesments10;
 
 public class BookRunner {
     public static void main(String[] args) {
-        Book book=new Book();
+        Book book = new Book();
         book.borrow();
         book.open();
         book.read();
         book.close();
         book.returnBook();
+
         System.out.println("---------------");
-        Book book1=new BookDetails();
+
+        Book book1 = new BookDetails();
         book1.borrow();
         book1.open();
         book1.read();
         book1.close();
         book1.returnBook();
+
         System.out.println("---------------");
-        BookDetails bookDetails=new BookDetails();
+
+        BookDetails bookDetails = new BookDetails();
         bookDetails.borrow();
         bookDetails.open();
         bookDetails.returnBook();
         bookDetails.read();
         bookDetails.close();
+        bookDetails.author();
+
+        System.out.println("---------------");
+
+        BookCast cast = new BookCast();
+        cast.castBook(book);
+        cast.castBook(book1);
     }
 }

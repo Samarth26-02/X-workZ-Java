@@ -25,4 +25,8 @@ public class GraphicsDetails extends Graphics{
     public void render() {
         System.out.println("Rendering detailed graphics");
     }
+
+    public void setResolution() {
+        System.out.println("Setting display resolution");
+    }
 }

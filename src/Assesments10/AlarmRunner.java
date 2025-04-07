@@ -26,5 +26,8 @@ public class AlarmRunner {
         alarmDetails.silence();
         alarmDetails.trigger();
         alarmDetails.disarm();
+        System.out.println("----------------------");
+        AlarmCast alarmCast=new AlarmCast();
+        alarmCast.castAlarm(alarm);
     }
 }

@@ -26,5 +26,12 @@ public class CalculationRunner {
         calculationDetails.divide();
         calculationDetails.multiply();
         calculationDetails.subtract();
+        calculationDetails.calculatePower();
+
+        System.out.println("----------------------");
+
+        CalculationCast cast = new CalculationCast();
+        cast.castCalculation(calculation);
+        cast.castCalculation(calculation1);
     }
 }

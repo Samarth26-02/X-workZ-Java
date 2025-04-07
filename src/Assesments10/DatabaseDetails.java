@@ -1,6 +1,6 @@
 package Assesments10;
 
-public class DatabaseDetails extends Database{
+public class DatabaseDetails extends Database {
     @Override
     public void connect() {
         System.out.println("Connecting to detailed database");
@@ -24,5 +24,9 @@ public class DatabaseDetails extends Database{
     @Override
     public void backup() {
         System.out.println("Backing up detailed database");
+    }
+
+    public void restore() {
+        System.out.println("Restoring detailed database backup");
     }
 }

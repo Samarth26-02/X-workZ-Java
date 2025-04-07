@@ -22,5 +22,8 @@ public class AnimalRunner {
         animalDetails.sound();
         animalDetails.fight();
         animalDetails.move();
+        System.out.println("----------------------");
+        AnimalCast animalCast=new AnimalCast();
+        animalCast.castAnimal(animal);
     }
 }

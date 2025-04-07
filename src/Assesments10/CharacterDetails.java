@@ -1,4 +1,3 @@
-// CharacterDetails.java
 package Assesments10;
 
 public class CharacterDetails extends Character {
@@ -25,5 +24,9 @@ public class CharacterDetails extends Character {
     @Override
     public void specialAbility() {
         System.out.println("Character uses detailed special ability");
+    }
+
+    public void transformation() {
+        System.out.println("Character transforms into powerful mode");
     }
 }

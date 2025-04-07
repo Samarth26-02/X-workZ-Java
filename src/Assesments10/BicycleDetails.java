@@ -1,24 +1,32 @@
 package Assesments10;
 
-public class BicycleDetails extends Bicycle{
+public class BicycleDetails extends Bicycle {
     @Override
-    public void type(){
+    public void type() {
         System.out.println("Race bike");
     }
+
     @Override
-    public void material(){
+    public void material() {
         System.out.println("Iron");
     }
+
     @Override
-    public void gearNo(){
+    public void gearNo() {
         System.out.println("25");
     }
+
     @Override
-    public void brakeType(){
+    public void brakeType() {
         System.out.println("Normal brake");
     }
+
     @Override
-    public void color(){
+    public void color() {
         System.out.println("Blue");
+    }
+
+    public void frameSize() {
+        System.out.println("Frame Size: Medium");
     }
 }

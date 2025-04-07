@@ -26,4 +26,8 @@ public class GPSDetails extends GPS {
     public void stopNavigation() {
         System.out.println("Stopping navigation and showing summary");
     }
+
+    public void showMap() {
+        System.out.println("Displaying map with current route");
+    }
 }

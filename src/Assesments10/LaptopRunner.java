@@ -22,5 +22,11 @@ public class LaptopRunner {
         laptopDetails.ram();
         laptopDetails.storage();
         laptopDetails.processor();
+        laptopDetails.displayOS();
+        System.out.println("-------------");
+        LaptopCast laptopCast = new LaptopCast();
+        laptopCast.castLaptop(laptop);
+        System.out.println("-------------");
+        laptopCast.castLaptop(laptopDetails);
     }
 }

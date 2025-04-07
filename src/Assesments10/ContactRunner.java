@@ -1,4 +1,3 @@
-// ContactRunner.java
 package Assesments10;
 
 public class ContactRunner {
@@ -27,5 +26,13 @@ public class ContactRunner {
         contactDetails.delete();
         contactDetails.edit();
         contactDetails.view();
+        contactDetails.exportToCSV();
+
+        System.out.println("----------------------");
+
+        ContactCast cast = new ContactCast();
+        cast.castContact(contact);
+        System.out.println("----------------------");
+        cast.castContact(contact1);
     }
 }

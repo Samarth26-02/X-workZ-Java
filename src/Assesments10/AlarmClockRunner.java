@@ -27,5 +27,9 @@ public class AlarmClockRunner {
         clockDetails.viewAlarm();
         clockDetails.stopAlarm();
         clockDetails.snooze();
+
+        System.out.println("----------------------");
+        AlarmClockCast alarmClockCast=new AlarmClockCast();
+        alarmClockCast.castAlarmClock(clock);
     }
 }

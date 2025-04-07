@@ -1,4 +1,3 @@
-// CustomerDetails.java
 package Assesments10;
 
 public class CustomerDetails extends Customer {
@@ -25,5 +24,9 @@ public class CustomerDetails extends Customer {
     @Override
     public void requestSupport() {
         System.out.println("Customer requesting detailed support");
+    }
+
+    public void applyDiscount() {
+        System.out.println("Applying discount for loyal customer");
     }
 }

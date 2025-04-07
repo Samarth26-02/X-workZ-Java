@@ -26,4 +26,8 @@ public class FileEncryptorDetails extends FileEncryptor {
     public void verifyDecryption() {
         System.out.println("Verifying successful decryption");
     }
+
+    public void generateLog() {
+        System.out.println("Generating encryption/decryption log");
+    }
 }

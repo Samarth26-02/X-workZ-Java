@@ -25,4 +25,8 @@ public class EventDetails extends Event{
     public void summarize() {
         System.out.println("Summarizing event with detailed report");
     }
+
+    public void logistics() {
+        System.out.println("Managing event logistics");
+    }
 }

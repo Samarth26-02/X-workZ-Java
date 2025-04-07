@@ -27,5 +27,8 @@ public class AppointmentRunner {
         appointmentDetails.viewDetails();
         appointmentDetails.cancel();
         appointmentDetails.reschedule();
+        System.out.println("----------------------");
+        AppointmentCast appointmentCast=new AppointmentCast();
+        appointmentCast.castAppointment(appointment);
     }
 }

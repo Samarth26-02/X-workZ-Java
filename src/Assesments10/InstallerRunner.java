@@ -27,5 +27,13 @@ public class InstallerRunner {
         installerDetails.verify();
         installerDetails.configure();
         installerDetails.copyFiles();
+        installerDetails.createBackup();
+
+        System.out.println("----------------------");
+
+        InstallerCast installerCast = new InstallerCast();
+        installerCast.castInstaller(installer);
+        System.out.println("----------------------");
+        installerCast.castInstaller(installerDetails);
     }
 }

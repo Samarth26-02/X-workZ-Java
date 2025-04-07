@@ -26,5 +26,13 @@ public class GraphicsRunner {
         graphicsDetails.setColor();
         graphicsDetails.drawRectangle();
         graphicsDetails.drawCircle();
+        graphicsDetails.setResolution();
+
+        System.out.println("----------------------");
+
+        GraphicsCast graphicsCast = new GraphicsCast();
+        graphicsCast.castGraphics(graphics);
+        System.out.println("----------------------");
+        graphicsCast.castGraphics(graphicsDetails);
     }
 }

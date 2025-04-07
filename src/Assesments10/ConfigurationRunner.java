@@ -26,5 +26,13 @@ public class ConfigurationRunner {
         configurationDetails.save();
         configurationDetails.apply();
         configurationDetails.validate();
+        configurationDetails.showConfigMetadata();
+
+        System.out.println("----------------------");
+
+        ConfigurationCast cast = new ConfigurationCast();
+        cast.castConfig(configuration);
+        System.out.println("----------------------");
+        cast.castConfig(configuration1);
     }
 }

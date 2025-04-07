@@ -26,4 +26,7 @@ public class AnimalDetails extends Animal{
     public void fight(){
         System.out.println("animal fighting in animaldetails..");
     }
+    public void roar(){
+        System.out.println("animal is roaring");
+    }
 }

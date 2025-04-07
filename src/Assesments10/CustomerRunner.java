@@ -1,4 +1,3 @@
-// CustomerRunner.java
 package Assesments10;
 
 public class CustomerRunner {
@@ -27,5 +26,13 @@ public class CustomerRunner {
         customerDetails.provideFeedback();
         customerDetails.returnItem();
         customerDetails.purchase();
+        customerDetails.applyDiscount();
+
+        System.out.println("----------------------");
+
+        CustomerCast cast = new CustomerCast();
+        cast.castCustomer(customer);
+        System.out.println("----------------------");
+        cast.castCustomer(customer1);
     }
 }

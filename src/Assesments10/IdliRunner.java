@@ -15,6 +15,7 @@ public class IdliRunner {
         idli1.servedWith();
         idli1.preparation();
         idli1.ingridients();
+
         System.out.println("-------------");
         IdliDetails idliDetails=new IdliDetails();
         idliDetails.ingridients();
@@ -22,5 +23,11 @@ public class IdliRunner {
         idliDetails.texture();
         idliDetails.preparation();
         idliDetails.servedWith();
+        idliDetails.addGhee();
+        System.out.println("-------------");
+        IdliCast idliCast = new IdliCast();
+        idliCast.castIdli(idli);
+        System.out.println("-------------");
+        idliCast.castIdli(idliDetails);
     }
 }

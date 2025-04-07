@@ -26,4 +26,8 @@ public class AlarmClockDetails extends AlarmClock {
     public void changeTime() {
         System.out.println("Changing current time with details");
     }
+    public void setTime(){
+        System.out.println("setting alarm in casting");
+    }
+
 }

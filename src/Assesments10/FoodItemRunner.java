@@ -15,6 +15,7 @@ public class FoodItemRunner {
         foodItem1.getCalories();
         foodItem1.addToBill();
         foodItem1.applyDiscount();
+
         System.out.println("-------------");
         FoodItemDetails foodItemDetails=new FoodItemDetails();
         foodItemDetails.addToBill();
@@ -22,5 +23,12 @@ public class FoodItemRunner {
         foodItemDetails.prepare();
         foodItemDetails.getCalories();
         foodItemDetails.applyDiscount();
+        foodItemDetails.displayIngredients();
+
+        System.out.println("-------------");
+        FoodItemCast foodItemCast = new FoodItemCast();
+        foodItemCast.castFoodItem(foodItem);
+        System.out.println("-------------");
+        foodItemCast.castFoodItem(foodItemDetails);
     }
 }

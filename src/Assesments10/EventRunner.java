@@ -17,6 +17,7 @@ public class EventRunner {
         detailedEvent.start();
         detailedEvent.end();
         detailedEvent.summarize();
+        detailedEvent.logistics();
 
         System.out.println("-------------");
 
@@ -26,5 +27,12 @@ public class EventRunner {
         event.start();
         event.end();
         event.summarize();
+
+        System.out.println("-------------");
+
+        EventCast eventCast = new EventCast();
+        eventCast.castEvent(genericEvent);
+        System.out.println("-------------");
+        eventCast.castEvent(detailedEvent);
     }
 }

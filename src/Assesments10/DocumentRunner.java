@@ -17,14 +17,22 @@ public class DocumentRunner {
         wordDocument.edit();
         wordDocument.save();
         wordDocument.print();
+        wordDocument.convertToPDF();
 
         System.out.println("-------------");
 
-        Document document=new Document();
+        Document document = new Document();
         document.create();
         document.open();
         document.edit();
         document.print();
         document.save();
+
+        System.out.println("-------------");
+
+        DocumentCast docCast = new DocumentCast();
+        docCast.castDocument(document);  // no PDF conversion
+        System.out.println("-------------");
+        docCast.castDocument(wordDocument);  // with PDF conversion
     }
 }

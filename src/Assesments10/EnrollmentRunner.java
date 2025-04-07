@@ -27,5 +27,13 @@ public class EnrollmentRunner {
         enrollmentDetails.assignGrade();
         enrollmentDetails.viewRoster();
         enrollmentDetails.withdrawStudent();
+        enrollmentDetails.sendConfirmation();
+
+        System.out.println("----------------------");
+
+        EnrollmentCast enrollmentCast = new EnrollmentCast();
+        enrollmentCast.castEnrollment(enrollment);
+        System.out.println("----------------------");
+        enrollmentCast.castEnrollment(enrollmentDetails);
     }
 }

@@ -1,20 +1,32 @@
 package Assesments10;
 
-public class BankAccountDetails extends BankAccount{
+public class BankAccountDetails extends BankAccount {
     @Override
-    public void deposit(){
+    public void deposit() {
         System.out.println("Deposit the 20000 money");
     }
-    public void withdraw(){
+
+    @Override
+    public void withdraw() {
         System.out.println("Withdraw the 3000 money");
     }
-    public void checkBalance(){
+
+    @Override
+    public void checkBalance() {
         System.out.println("Check account balance");
     }
-    public void accountDetails(){
+
+    @Override
+    public void accountDetails() {
         System.out.println("Account details");
     }
-    public void area(){
+
+    @Override
+    public void area() {
         System.out.println("Area of Bank:Bangalore");
+    }
+
+    public void branchCode() {
+        System.out.println("Branch Code: SBI1234");
     }
 }

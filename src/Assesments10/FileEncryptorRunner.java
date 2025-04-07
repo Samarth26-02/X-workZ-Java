@@ -27,5 +27,13 @@ public class FileEncryptorRunner {
         encryptorDetails.decrypt();
         encryptorDetails.encrypt();
         encryptorDetails.setPassword();
+        encryptorDetails.generateLog();
+
+        System.out.println("----------------------");
+
+        FileEncryptorCast encryptorCast = new FileEncryptorCast();
+        encryptorCast.castEncryptor(encryptor);
+        System.out.println("----------------------");
+        encryptorCast.castEncryptor(encryptorDetails);
     }
 }

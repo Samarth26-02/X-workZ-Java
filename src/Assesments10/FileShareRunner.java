@@ -27,5 +27,13 @@ public class FileShareRunner {
         fileShareDetails.unshareFile();
         fileShareDetails.shareFile();
         fileShareDetails.downloadFile();
+        fileShareDetails.setExpiration();
+
+        System.out.println("----------------------");
+
+        FileShareCast fileShareCast = new FileShareCast();
+        fileShareCast.castFileShare(fileShare);
+        System.out.println("----------------------");
+        fileShareCast.castFileShare(fileShareDetails);
     }
 }

@@ -1,4 +1,3 @@
-// EmailDetails.java
 package Assesments10;
 
 public class EmailDetails extends Email {
@@ -25,5 +24,9 @@ public class EmailDetails extends Email {
     @Override
     public void forward() {
         System.out.println("Forwarding detailed email");
+    }
+
+    public void flag() {
+        System.out.println("Email flagged as important");
     }
 }

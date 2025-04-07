@@ -1,4 +1,3 @@
-// CartRunner.java
 package Assesments10;
 
 public class CartRunner {
@@ -27,5 +26,12 @@ public class CartRunner {
         cartDetails.checkout();
         cartDetails.viewItems();
         cartDetails.removeItem();
+        cartDetails.applyDiscount();
+
+        System.out.println("----------------------");
+
+        CartCast cartCast = new CartCast();
+        cartCast.castCart(cart);
+        cartCast.castCart(cart1);
     }
 }

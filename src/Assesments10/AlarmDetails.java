@@ -25,4 +25,7 @@ public class AlarmDetails extends Alarm{
     public void checkStatus() {
         System.out.println("Checking detailed alarm system status");
     }
+    public void time(){
+        System.out.println("time is running in alaramclock");
+    }
 }

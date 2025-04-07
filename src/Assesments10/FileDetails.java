@@ -25,4 +25,8 @@ public class FileDetails extends File {
     public void delete() {
         System.out.println("Deleting text file");
     }
+
+    public void encrypt() {
+        System.out.println("Encrypting text file");
+    }
 }

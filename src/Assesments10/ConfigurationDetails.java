@@ -1,6 +1,6 @@
 package Assesments10;
 
-public class ConfigurationDetails extends Configuration{
+public class ConfigurationDetails extends Configuration {
     @Override
     public void load() {
         System.out.println("Loading detailed configuration");
@@ -24,5 +24,9 @@ public class ConfigurationDetails extends Configuration{
     @Override
     public void reset() {
         System.out.println("Resetting detailed configuration");
+    }
+
+    public void showConfigMetadata() {
+        System.out.println("Metadata: Config version 3.2, Author: Admin");
     }
 }

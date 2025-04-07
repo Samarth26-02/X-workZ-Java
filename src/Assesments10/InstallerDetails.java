@@ -26,4 +26,8 @@ public class InstallerDetails extends Installer {
     public void complete() {
         System.out.println("Completing detailed installation");
     }
+
+    public void createBackup() {
+        System.out.println("Creating a system backup");
+    }
 }

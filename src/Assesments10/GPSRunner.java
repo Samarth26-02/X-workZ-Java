@@ -27,5 +27,13 @@ public class GPSRunner {
         gpsDetails.recalculateRoute();
         gpsDetails.startNavigation();
         gpsDetails.setDestination();
+        gpsDetails.showMap();
+
+        System.out.println("----------------------");
+
+        GPSCast gpsCast = new GPSCast();
+        gpsCast.castGPS(gps);
+        System.out.println("----------------------");
+        gpsCast.castGPS(gpsDetails);
     }
 }

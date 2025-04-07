@@ -1,4 +1,3 @@
-// CartDetails.java
 package Assesments10;
 
 public class CartDetails extends Cart {
@@ -25,5 +24,9 @@ public class CartDetails extends Cart {
     @Override
     public void clear() {
         System.out.println("Clearing detailed cart");
+    }
+
+    public void applyDiscount() {
+        System.out.println("Applying discount to cart");
     }
 }

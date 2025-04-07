@@ -1,4 +1,3 @@
-// CodeEditorRunner.java
 package Assesments10;
 
 public class CodeEditorRunner {
@@ -27,5 +26,12 @@ public class CodeEditorRunner {
         editorDetails.compileCode();
         editorDetails.saveFile();
         editorDetails.editCode();
+        editorDetails.debugTools();
+
+        System.out.println("----------------------");
+
+        CodeEditorCast cast = new CodeEditorCast();
+        cast.castEditor(editor);
+        cast.castEditor(editor1);
     }
 }

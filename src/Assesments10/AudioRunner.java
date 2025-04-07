@@ -26,5 +26,8 @@ public class AudioRunner {
         audioDetails.stop();
         audioDetails.resume();
         audioDetails.pause();
+        System.out.println("----------------------");
+        AudioCast audioCast=new AudioCast();
+        audioCast.castAudio(audio);
     }
 }

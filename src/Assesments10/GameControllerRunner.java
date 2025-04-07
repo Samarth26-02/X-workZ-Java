@@ -27,5 +27,13 @@ public class GameControllerRunner {
         controllerDetails.fire();
         controllerDetails.jump();
         controllerDetails.moveBackward();
+        controllerDetails.specialAbility();
+
+        System.out.println("----------------------");
+
+        GameControllerCast controllerCast = new GameControllerCast();
+        controllerCast.castController(controller);
+        System.out.println("----------------------");
+        controllerCast.castController(controllerDetails);
     }
 }

@@ -1,4 +1,3 @@
-// CalendarEventDetails.java
 package Assesments10;
 
 public class CalendarEventDetails extends CalendarEvent {
@@ -25,5 +24,9 @@ public class CalendarEventDetails extends CalendarEvent {
     @Override
     public void remind() {
         System.out.println("Setting detailed reminder for calendar event");
+    }
+
+    public void setLocation() {
+        System.out.println("Setting event location");
     }
 }

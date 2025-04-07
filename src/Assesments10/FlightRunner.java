@@ -27,5 +27,13 @@ public class FlightRunner {
         flightDetails.track();
         flightDetails.board();
         flightDetails.checkIn();
+        flightDetails.selectSeat();
+
+        System.out.println("----------------------");
+
+        FlightCast flightCast = new FlightCast();
+        flightCast.castFlight(flight);
+        System.out.println("----------------------");
+        flightCast.castFlight(flightDetails);
     }
 }

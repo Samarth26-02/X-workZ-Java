@@ -1,4 +1,3 @@
-// CalendarEventRunner.java
 package Assesments10;
 
 public class CalendarEventRunner {
@@ -27,5 +26,12 @@ public class CalendarEventRunner {
         eventDetails.cancel();
         eventDetails.update();
         eventDetails.viewDetails();
+        eventDetails.setLocation();
+
+        System.out.println("----------------------");
+
+        CalendarEventCast cast = new CalendarEventCast();
+        cast.castCalendar(event);
+        cast.castCalendar(event1);
     }
 }

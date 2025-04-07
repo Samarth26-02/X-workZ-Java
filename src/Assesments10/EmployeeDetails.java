@@ -21,4 +21,7 @@ public class EmployeeDetails extends Employee{
     public void present(){
         System.out.println("Employee presents ppt");
     }
+    public void submitReports(){
+        System.out.println("Employee submits reports");
+    }
 }

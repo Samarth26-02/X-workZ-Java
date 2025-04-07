@@ -26,4 +26,8 @@ public class FitnessTrackerDetails extends FitnessTracker {
     public void setGoal() {
         System.out.println("Setting personalized fitness goal with reminders");
     }
+
+    public void monitorHeartRate() {
+        System.out.println("Monitoring heart rate during workout");
+    }
 }

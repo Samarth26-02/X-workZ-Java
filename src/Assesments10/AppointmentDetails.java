@@ -26,4 +26,7 @@ public class AppointmentDetails extends Appointment {
     public void sendReminder() {
         System.out.println("Sending detailed appointment reminder");
     }
+    public void dontRemind(){
+        System.out.println("dont remind for appointment");
+    }
 }

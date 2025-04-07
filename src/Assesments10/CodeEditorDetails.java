@@ -1,4 +1,3 @@
-// CodeEditorDetails.java
 package Assesments10;
 
 public class CodeEditorDetails extends CodeEditor {
@@ -25,5 +24,9 @@ public class CodeEditorDetails extends CodeEditor {
     @Override
     public void runCode() {
         System.out.println("Running code in debug mode");
+    }
+
+    public void debugTools() {
+        System.out.println("Using advanced debugging tools");
     }
 }
