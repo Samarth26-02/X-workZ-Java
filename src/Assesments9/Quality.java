@@ -1,3 +1,4 @@
+//this is for constructor example
 package Assesments9;
 
 public class Quality {
