@@ -1,20 +1,8 @@
 package Assesments14;
 
-public class Car extends Vehicle{
-    public Car(int wheels, int capacity) {
-        super(wheels, capacity);
-    }
-
-    // This would cause an error if uncommented, since displayDetails is final
-    /*
+public class Car extends Vehicle {
     @Override
-    public void displayDetails() {
-        System.out.println("This is a car.");
-    }
-    */
-
-    @Override
-    public void fuelType() {
-        System.out.println("Petrol.");
+    void move() {
+        System.out.println("running move in car");
     }
 }
