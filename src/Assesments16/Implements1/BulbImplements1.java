@@ -17,4 +17,8 @@ public class BulbImplements1 implements Bulb {
     public void state() {
         System.out.println("running bulb state in implements");
     }
+    @Override
+    public void properties(){
+        System.out.println("running bulb properties in implements");
+    }
 }

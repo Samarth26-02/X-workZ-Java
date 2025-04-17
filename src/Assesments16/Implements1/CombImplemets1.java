@@ -17,4 +17,8 @@ public class CombImplemets1 implements Comb {
     public void state() {
         System.out.println("running comb state in implements");
     }
+    @Override
+    public void properties(){
+        System.out.println("running comb properties in implements");
+    }
 }

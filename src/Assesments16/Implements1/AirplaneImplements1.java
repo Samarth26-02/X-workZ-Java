@@ -17,4 +17,8 @@ public class AirplaneImplements1 implements Airplane {
     public void state() {
         System.out.println("running airplane state in implements");
     }
+    @Override
+    public void properties(){
+        System.out.println("running airplane properties in implements");
+    }
 }

@@ -17,4 +17,8 @@ public class BookImplements1 implements Book {
     public void state() {
         System.out.println("running book state in implements");
     }
+    @Override
+    public void properties(){
+        System.out.println("running book properties in implements");
+    }
 }

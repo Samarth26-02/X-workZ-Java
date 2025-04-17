@@ -17,4 +17,8 @@ public class BedImplements1 implements Bed {
     public void state() {
         System.out.println("running bed state in implements");
     }
+    @Override
+    public void properties(){
+        System.out.println("running bed properties in implements");
+    }
 }

@@ -17,4 +17,8 @@ public class BagImplements1 implements Bag {
     public void state() {
         System.out.println("running bag state in implements");
     }
+    @Override
+    public void properties(){
+        System.out.println("running bag properties in implements");
+    }
 }

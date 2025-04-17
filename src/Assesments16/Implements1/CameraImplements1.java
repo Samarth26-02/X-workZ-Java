@@ -17,4 +17,8 @@ public class CameraImplements1 implements Camera {
     public void state() {
         System.out.println("running camera state in implements");
     }
+    @Override
+    public void properties(){
+        System.out.println("running camera properties in implements");
+    }
 }

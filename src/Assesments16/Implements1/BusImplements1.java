@@ -17,4 +17,8 @@ public class BusImplements1 implements Bus {
     public void state() {
         System.out.println("running bus state in implements");
     }
+    @Override
+    public void properties(){
+        System.out.println("running bus properties in implements");
+    }
 }

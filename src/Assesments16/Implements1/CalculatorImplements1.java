@@ -17,4 +17,8 @@ public class CalculatorImplements1 implements Calculator {
     public void state() {
         System.out.println("running calculator state in implements");
     }
+    @Override
+    public void properties(){
+        System.out.println("running calculator properties in implements");
+    }
 }

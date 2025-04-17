@@ -17,4 +17,8 @@ public class ClockImplements1 implements Clock {
     public void state() {
         System.out.println("running clock state in implements");
     }
+    @Override
+    public void properties(){
+        System.out.println("running clock properties in implements");
+    }
 }

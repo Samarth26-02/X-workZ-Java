@@ -17,4 +17,8 @@ public class CarpetImplements1 implements Carpet {
     public void state() {
         System.out.println("running carpet state in implements");
     }
+    @Override
+    public void properties(){
+        System.out.println("running carpet properties in implements");
+    }
 }

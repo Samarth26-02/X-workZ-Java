@@ -17,4 +17,8 @@ public class BatteryImplements1 implements Battery {
     public void state() {
         System.out.println("running battery state in implements");
     }
+    @Override
+    public void properties(){
+        System.out.println("running battery properties in implements");
+    }
 }

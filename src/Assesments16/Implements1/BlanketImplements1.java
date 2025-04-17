@@ -17,4 +17,8 @@ public class BlanketImplements1 implements Blanket {
     public void state() {
         System.out.println("running blanket state in implements");
     }
+    @Override
+    public void properties(){
+        System.out.println("running blanket properties in implements");
+    }
 }

@@ -17,4 +17,8 @@ public class CapImplements1 implements Cap {
     public void state() {
         System.out.println("running cap state in implements");
     }
+    @Override
+    public void properties(){
+        System.out.println("running cap properties in implements");
+    }
 }
