@@ -17,4 +17,8 @@ public class MirrorImplements1 implements Mirror {
     public void state() {
         System.out.println("running mirror state in implements");
     }
+    @Override
+    public void properties(){
+        System.out.println("running mirror properties in implements");
+    }
 }

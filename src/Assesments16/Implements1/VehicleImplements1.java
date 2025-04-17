@@ -17,4 +17,8 @@ public class VehicleImplements1 implements Vehicle {
     public void state() {
         System.out.println("running vehicle state in implements");
     }
+    @Override
+    public void properties(){
+        System.out.println("running vehicle properties in implements");
+    }
 }

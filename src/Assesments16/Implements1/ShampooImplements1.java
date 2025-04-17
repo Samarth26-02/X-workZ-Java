@@ -17,4 +17,8 @@ public class ShampooImplements1 implements Shampoo {
     public void state() {
         System.out.println("running shampoo state in implements");
     }
+    @Override
+    public void properties(){
+        System.out.println("running shampoo properties in implements");
+    }
 }

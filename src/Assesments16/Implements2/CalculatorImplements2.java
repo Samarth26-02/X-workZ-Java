@@ -8,7 +8,10 @@ public class CalculatorImplements2 implements Calculator, Microwave {
     public void behaviour() {
         System.out.println("running calculator behaviour in implements");
     }
-
+    @Override
+    public void properties() {
+        System.out.println("running properties in implements");
+    }
     @Override
     public void identity() {
         System.out.println("running calculator identity in implements");

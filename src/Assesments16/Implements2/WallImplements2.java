@@ -8,7 +8,10 @@ public class WallImplements2 implements Wall, Roof {
     public void behaviour() {
         System.out.println("running wall behaviour in implements");
     }
-
+    @Override
+    public void properties() {
+        System.out.println("running properties in implements");
+    }
     @Override
     public void identity() {
         System.out.println("running wall identity in implements");

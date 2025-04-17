@@ -17,4 +17,8 @@ public class ShipImplements1 implements Ship {
     public void state() {
         System.out.println("running ship state in implements");
     }
+    @Override
+    public void properties(){
+        System.out.println("running ship properties in implements");
+    }
 }

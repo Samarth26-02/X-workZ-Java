@@ -17,4 +17,8 @@ public class TelescopeImplements1 implements Telescope {
     public void state() {
         System.out.println("running telescope state in implements");
     }
+    @Override
+    public void properties(){
+        System.out.println("running telescope properties in implements");
+    }
 }

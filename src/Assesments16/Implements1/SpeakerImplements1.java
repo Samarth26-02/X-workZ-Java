@@ -17,4 +17,8 @@ public class SpeakerImplements1 implements Speaker {
     public void state() {
         System.out.println("running speaker state in implements");
     }
+    @Override
+    public void properties(){
+        System.out.println("running speaker properties in implements");
+    }
 }

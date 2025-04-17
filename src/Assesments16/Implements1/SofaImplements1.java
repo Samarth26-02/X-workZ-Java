@@ -17,4 +17,8 @@ public class SofaImplements1 implements Sofa {
     public void state() {
         System.out.println("running sofa state in implements");
     }
+    @Override
+    public void properties(){
+        System.out.println("running sofa properties in implements");
+    }
 }

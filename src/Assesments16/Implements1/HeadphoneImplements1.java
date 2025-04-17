@@ -17,4 +17,8 @@ public class HeadphoneImplements1 implements Headphone {
     public void state() {
         System.out.println("running headphone state in implements");
     }
+    @Override
+    public void properties(){
+        System.out.println("running headphone properties in implements");
+    }
 }

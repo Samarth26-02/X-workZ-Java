@@ -8,7 +8,10 @@ public class ShoeImplements2 implements Shoe, Socks {
     public void behaviour() {
         System.out.println("running shoe behaviour in implements");
     }
-
+    @Override
+    public void properties() {
+        System.out.println("running properties in implements");
+    }
     @Override
     public void identity() {
         System.out.println("running shoe identity in implements");

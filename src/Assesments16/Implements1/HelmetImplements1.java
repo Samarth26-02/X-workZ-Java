@@ -17,4 +17,8 @@ public class HelmetImplements1 implements Helmet {
     public void state() {
         System.out.println("running helmet state in implements");
     }
+    @Override
+    public void properties(){
+        System.out.println("running helmet properties in implements");
+    }
 }

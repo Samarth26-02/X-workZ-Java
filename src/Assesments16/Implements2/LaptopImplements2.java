@@ -8,7 +8,10 @@ public class LaptopImplements2 implements Laptop, Smartphone {
     public void behaviour() {
         System.out.println("running laptop behaviour in implements");
     }
-
+    @Override
+    public void properties() {
+        System.out.println("running properties in implements");
+    }
     @Override
     public void identity() {
         System.out.println("running laptop identity in implements");

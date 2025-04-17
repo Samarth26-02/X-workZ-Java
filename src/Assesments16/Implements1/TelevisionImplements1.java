@@ -17,4 +17,8 @@ public class TelevisionImplements1 implements Television {
     public void state() {
         System.out.println("running tv state in implements");
     }
+    @Override
+    public void properties(){
+        System.out.println("running tv properties in implements");
+    }
 }

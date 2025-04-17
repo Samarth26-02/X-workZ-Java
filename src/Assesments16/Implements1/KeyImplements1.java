@@ -17,4 +17,8 @@ public class KeyImplements1 implements Key {
     public void state() {
         System.out.println("running key state in implements");
     }
+    @Override
+    public void properties(){
+        System.out.println("running key properties in implements");
+    }
 }

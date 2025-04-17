@@ -8,7 +8,10 @@ public class PlateImplements2 implements Plate, Spoon {
     public void behaviour() {
         System.out.println("running plate behaviour in implements");
     }
-
+    @Override
+    public void properties() {
+        System.out.println("running properties in implements");
+    }
     @Override
     public void identity() {
         System.out.println("running plate identity in implements");

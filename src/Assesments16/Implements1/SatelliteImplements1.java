@@ -17,4 +17,8 @@ public class SatelliteImplements1 implements Satelite {
     public void state() {
         System.out.println("running satelite state in implements");
     }
+    @Override
+    public void properties(){
+        System.out.println("running satelite properties in implements");
+    }
 }

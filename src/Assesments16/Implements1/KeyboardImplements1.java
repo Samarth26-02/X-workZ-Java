@@ -17,4 +17,8 @@ public class KeyboardImplements1 implements Keyboard {
     public void state() {
         System.out.println("running keyboard state in implements");
     }
+    @Override
+    public void properties(){
+        System.out.println("running keyboard properties in implements");
+    }
 }

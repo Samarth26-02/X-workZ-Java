@@ -17,4 +17,8 @@ public class ToothpasteImplements1 implements Toothpaste {
     public void state() {
         System.out.println("running tooth paste state in implements");
     }
+    @Override
+    public void properties(){
+        System.out.println("running tooth paste properties in implements");
+    }
 }

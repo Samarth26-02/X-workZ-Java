@@ -17,4 +17,8 @@ public class SoapImplements1 implements Soap {
     public void state() {
         System.out.println("running soap state in implements");
     }
+    @Override
+    public void properties(){
+        System.out.println("running soap properties in implements");
+    }
 }

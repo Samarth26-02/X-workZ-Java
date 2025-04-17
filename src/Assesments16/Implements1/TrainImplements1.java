@@ -17,4 +17,8 @@ public class TrainImplements1 implements Train {
     public void state() {
         System.out.println("running train state in implements");
     }
+    @Override
+    public void properties(){
+        System.out.println("running train properties in implements");
+    }
 }

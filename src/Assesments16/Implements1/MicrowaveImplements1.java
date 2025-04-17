@@ -17,4 +17,8 @@ public class MicrowaveImplements1 implements Microwave {
     public void state() {
         System.out.println("running microwave state in implements");
     }
+    @Override
+    public void properties(){
+        System.out.println("running microwave properties in implements");
+    }
 }

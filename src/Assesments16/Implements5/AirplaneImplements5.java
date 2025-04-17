@@ -9,6 +9,11 @@ public class AirplaneImplements5 implements Airplane, Ship, Clock, Watch, Speake
     }
 
     @Override
+    public void properties() {
+        System.out.println("running properties in implements");
+    }
+
+    @Override
     public void identity() {
         System.out.println("running  identity in implements");
     }

@@ -17,4 +17,8 @@ public class FloorImplements1 implements Floor {
     public void state() {
         System.out.println("running floor state in implements");
     }
+    @Override
+    public void properties(){
+        System.out.println("running floor properties in implements");
+    }
 }

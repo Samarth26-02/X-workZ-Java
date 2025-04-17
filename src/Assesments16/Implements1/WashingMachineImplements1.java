@@ -17,4 +17,8 @@ public class WashingMachineImplements1 implements WasshingMachine {
     public void state() {
         System.out.println("running washing machine state in implements");
     }
+    @Override
+    public void properties(){
+        System.out.println("running washing machine properties in implements");
+    }
 }

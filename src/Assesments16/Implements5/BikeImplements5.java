@@ -9,6 +9,11 @@ public class BikeImplements5 implements Bike, Bus, Train, Airplane, Ship {
     }
 
     @Override
+    public void properties() {
+        System.out.println("running properties in implements");
+    }
+
+    @Override
     public void identity() {
         System.out.println("running  identity in implements");
     }

@@ -17,4 +17,8 @@ public class WindowImplements1 implements Window {
     public void state() {
         System.out.println("running window state in implements");
     }
+    @Override
+    public void properties(){
+        System.out.println("running window properties in implements");
+    }
 }

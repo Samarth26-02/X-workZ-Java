@@ -17,4 +17,8 @@ public class RoofImplements implements Roof {
     public void state() {
         System.out.println("running roof state in implements");
     }
+    @Override
+    public void properties(){
+        System.out.println("running roof properties in implements");
+    }
 }

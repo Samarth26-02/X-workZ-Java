@@ -8,7 +8,10 @@ public class CupImplements2 implements Cup, Glass {
     public void behaviour() {
         System.out.println("running cup behaviour in implements");
     }
-
+    @Override
+    public void properties() {
+        System.out.println("running properties in implements");
+    }
     @Override
     public void identity() {
         System.out.println("running cup identity in implements");

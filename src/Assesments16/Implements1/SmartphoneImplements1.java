@@ -17,4 +17,8 @@ public class SmartphoneImplements1 implements Smartphone {
     public void state() {
         System.out.println("running smartphone state in implements");
     }
+    @Override
+    public void properties(){
+        System.out.println("running smartphone properties in implements");
+    }
 }

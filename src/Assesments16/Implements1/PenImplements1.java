@@ -17,4 +17,8 @@ public class PenImplements1 implements Pen {
     public void state() {
         System.out.println("running pen state in implements");
     }
+    @Override
+    public void properties(){
+        System.out.println("running pen properties in implements");
+    }
 }

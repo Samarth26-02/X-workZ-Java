@@ -17,4 +17,8 @@ public class SpoonImplements1 implements Spoon {
     public void state() {
         System.out.println("running spoon state in implements");
     }
+    @Override
+    public void properties(){
+        System.out.println("running spoon properties in implements");
+    }
 }

@@ -8,7 +8,10 @@ public class PillowImplements2 implements Pillow, Blanket {
     public void behaviour() {
         System.out.println("running pillow behaviour in implements");
     }
-
+    @Override
+    public void properties() {
+        System.out.println("running properties in implements");
+    }
     @Override
     public void identity() {
         System.out.println("running pillow identity in implements");

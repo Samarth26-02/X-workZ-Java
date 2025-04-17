@@ -17,4 +17,8 @@ public class WallImplements1 implements Wall {
     public void state() {
         System.out.println("running wall state in implements");
     }
+    @Override
+    public void properties(){
+        System.out.println("running wall properties in implements");
+    }
 }

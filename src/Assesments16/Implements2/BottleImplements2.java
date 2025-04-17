@@ -8,7 +8,10 @@ public class BottleImplements2 implements Bottle, Fan {
     public void behaviour() {
         System.out.println("running bottle behaviour in implements");
     }
-
+    @Override
+    public void properties() {
+        System.out.println("running properties in implements");
+    }
     @Override
     public void identity() {
         System.out.println("running bottle identity in implements");

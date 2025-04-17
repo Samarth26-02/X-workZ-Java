@@ -17,4 +17,8 @@ public class RemoteImplements1 implements Remote {
     public void state() {
         System.out.println("running remote state in implements");
     }
+    @Override
+    public void properties(){
+        System.out.println("running remote properties in implements");
+    }
 }

@@ -8,7 +8,10 @@ public class CarImplements2 implements Car, Bike {
     public void behaviour() {
         System.out.println("running car behaviour in implements");
     }
-
+    @Override
+    public void properties() {
+        System.out.println("running properties in implements");
+    }
     @Override
     public void identity() {
         System.out.println("running car identity in implements");

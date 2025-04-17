@@ -8,7 +8,10 @@ public class CarpetImplements2 implements Carpet, Mirror {
     public void behaviour() {
         System.out.println("running carpet behaviour in implements");
     }
-
+    @Override
+    public void properties() {
+        System.out.println("running properties in implements");
+    }
     @Override
     public void identity() {
         System.out.println("running carpet identity in implements");

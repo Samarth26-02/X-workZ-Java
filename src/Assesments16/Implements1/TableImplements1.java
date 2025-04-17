@@ -17,4 +17,8 @@ public class TableImplements1 implements Table {
     public void state() {
         System.out.println("running table state in implements");
     }
+    @Override
+    public void properties(){
+        System.out.println("running table properties in implements");
+    }
 }

@@ -17,4 +17,8 @@ public class PlateImplements1 implements Plate {
     public void state() {
         System.out.println("running plate state in implements");
     }
+    @Override
+    public void properties(){
+        System.out.println("running plate properties in implements");
+    }
 }

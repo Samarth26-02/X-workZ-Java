@@ -8,7 +8,10 @@ public class BedImplements2 implements Bed, Sofa {
     public void behaviour() {
         System.out.println("running bed behaviour in implements");
     }
-
+    @Override
+    public void properties() {
+        System.out.println("running properties in implements");
+    }
     @Override
     public void identity() {
         System.out.println("running bed identity in implements");

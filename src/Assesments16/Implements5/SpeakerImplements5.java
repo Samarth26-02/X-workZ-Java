@@ -7,7 +7,10 @@ public class SpeakerImplements5 implements Speaker, Headphone, Camera, Bulb, Cal
     public void behaviour() {
         System.out.println("running  behaviour in implements");
     }
-
+    @Override
+    public void properties() {
+        System.out.println("running properties in implements");
+    }
     @Override
     public void identity() {
         System.out.println("running  identity in implements");

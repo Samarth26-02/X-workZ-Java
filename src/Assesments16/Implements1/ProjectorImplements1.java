@@ -17,4 +17,8 @@ public class ProjectorImplements1 implements Projector {
     public void state() {
         System.out.println("running projector state in implements");
     }
+    @Override
+    public void properties(){
+        System.out.println("running projector properties in implements");
+    }
 }

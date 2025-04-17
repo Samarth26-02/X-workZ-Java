@@ -17,4 +17,8 @@ public class LockImplements1 implements Lock {
     public void state() {
         System.out.println("running lock state in implements");
     }
+    @Override
+    public void properties(){
+        System.out.println("running lock properties in implements");
+    }
 }

@@ -8,7 +8,10 @@ public class CapImplements2 implements Cap, Helmet {
     public void behaviour() {
         System.out.println("running cap behaviour in implements");
     }
-
+    @Override
+    public void properties() {
+        System.out.println("running properties in implements");
+    }
     @Override
     public void identity() {
         System.out.println("running cap identity in implements");

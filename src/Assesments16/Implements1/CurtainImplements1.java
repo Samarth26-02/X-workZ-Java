@@ -17,4 +17,8 @@ public class CurtainImplements1 implements Curtain {
     public void state() {
         System.out.println("running curtain state in implements");
     }
+    @Override
+    public void properties(){
+        System.out.println("running curtain properties in implements");
+    }
 }
