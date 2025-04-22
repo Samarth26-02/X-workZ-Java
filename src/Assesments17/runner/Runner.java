@@ -3,6 +3,7 @@ package Assesments17.runner;
 import Assesments17.implement.*;
 import Assesments17.interfacecs.*;
 import Assesments17.useclasses.*;
+import sun.security.krb5.internal.crypto.Des;
 
 public class Runner {
     public static void main(String[] args) {
@@ -183,5 +184,79 @@ public class Runner {
         Shop shop=new Shop(product);
         shop.execute();
         //36
+        Server server=new ServerImpl();
+
+        Datacenter datacenter=new Datacenter(server);
+        datacenter.execute();
+        //37
+        Document document=new DocumentImpl();
+
+        Printer printer=new Printer(document);
+        printer.execute();
+        //38
+        Productline productline=new ProductlineImpl();
+
+        Industry industry=new Industry(productline);
+        industry.execute();
+        //39
+        Train train=new TrainImpl();
+
+        RailwayStation railwayStation=new RailwayStation(train);
+        railwayStation.execute();
+        //40
+        AquaticAnimal aquaticAnimal=new AquaticAnimalImpl();
+
+        Aquarium aquarium=new Aquarium(aquaticAnimal);
+        aquarium.execute();
+        //41
+        Cactus cactus=new CactusImpl();
+
+        Desert desert=new Desert(cactus);
+        desert.execute();
+        //42
+        Scientist scientist=new ScientistImpl();
+
+        Lab lab=new Lab(scientist);
+        lab.execute();
+        //43
+        Department department=new DepartmentImpl();
+
+        College college=new College(department);
+        college.execute();
+        //44
+        Editor editor=new EditorImpl();
+
+        Publish publish=new Publish(editor);
+        publish.execute();
+        //45
+        Event event=new EventImpl();
+
+        Festival festival=new Festival(event);
+        festival.execute();
+        //46
+        Ride ride=new RideImpl();
+
+        Park park=new Park(ride);
+        park.execute();
+        //47
+        Worker worker=new WorkerImpl();
+
+        Construction construction=new Construction(worker);
+        construction.execute();
+        //48
+        Director director=new DirectorImpl();
+
+        ProductionSite productionSite=new ProductionSite(director);
+        productionSite.execute();
+        //49
+        Trainer trainer=new TrainerImpl();
+
+        Gym gym=new Gym(trainer);
+        gym.execute();
+        //50
+        Bike bike=new BikeImpl();
+
+        Trip trip=new Trip(bike);
+        trip.execute();
     }
 }
