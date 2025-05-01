@@ -1,4 +1,4 @@
-package Assesments5;
+package Assesment5;
 
 public class Dealer {
     Assesment5.Car car=new Assesment5.Car();

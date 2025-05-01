@@ -1,10 +1,11 @@
 package Assesments9;
 
 public class Panel {
-    private String type;
+    private String type;//private variable
     private int resolution;
 
     public Panel(){
+        //no argument constructor
         System.out.println("no-arg constructor");
     }
     public void setType(String type){
