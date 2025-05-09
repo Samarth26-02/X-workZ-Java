@@ -1,4 +1,5 @@
 package InterviewQustions;
+//class ArmstrongCheck implementing Class ArmstrongNo
 
 public class ArmstrongCheck implements ArmstrongNo{
     @Override
