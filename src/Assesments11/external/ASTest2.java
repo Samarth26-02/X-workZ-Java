@@ -1,5 +1,5 @@
 package Assesments11.external;
-
+//access specifiers
 public class ASTest2 {
     //this is just example
     //ASTest asTest=new ASTest();
