@@ -1,3 +1,5 @@
+//class BagWildcraft
+
 package Assesments;
 class BagWildcraft{
 	char size='M';
