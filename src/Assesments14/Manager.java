@@ -1,3 +1,5 @@
+//abstraction example
+
 package Assesments14;
 
 public class Manager extends Employee{
