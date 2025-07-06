@@ -1,7 +1,7 @@
 package Assesmennts8;
 
 public class TestRunner {
-    //Example of encapsulation
+    //Encapsulation example
     public static void main(String[] args) {
         Test obj1=new Test();
         System.out.println("Object1 value:"+Test.number);
