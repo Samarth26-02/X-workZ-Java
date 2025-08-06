@@ -1,4 +1,4 @@
-// AlarmClockRunner.java
+// AlarmClockRunner
 package Assesments10;
 
 public class AlarmClockRunner {
