@@ -1,3 +1,5 @@
+//assesment 12
+
 package Assesments12;
 //extending the properties of parent class i.e. Tyre class
 
