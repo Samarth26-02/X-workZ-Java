@@ -1,3 +1,4 @@
+
 package Assesments15.HierarchicalInheritance;
 
 public class Company {
