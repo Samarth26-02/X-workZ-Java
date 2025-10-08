@@ -1,3 +1,4 @@
+
 package Assesments;
 class AliveCheck {
     public static String checkAlive(String name) {
