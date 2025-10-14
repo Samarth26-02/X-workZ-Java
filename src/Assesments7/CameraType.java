@@ -1,3 +1,4 @@
+
 package Assesments7;
 
 public enum CameraType {
