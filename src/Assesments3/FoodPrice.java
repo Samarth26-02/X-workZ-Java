@@ -1,3 +1,4 @@
+
 package Assesments3;
 class FoodPrice{
 	public static int getPrice(String foodItem){
