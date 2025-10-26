@@ -1,7 +1,7 @@
 package Assesments13;
 
 public class Vehicle {
-    final int wheels;      // final variable
+    final int wheels;     
     final int capacity;    // final variable
 
     // Constructor to initialize the two final variables
