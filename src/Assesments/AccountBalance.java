@@ -1,4 +1,4 @@
-//example code
+
 package Assesments;
 class AccountBalance{
 	public static int getBalance(int accNo){
