@@ -1,3 +1,4 @@
+
 package Assesments2;
 public class Brush {
     Color color;
